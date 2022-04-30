@@ -1,0 +1,14 @@
+input[type=text]
+{
+    box-sizing: border-box;
+    width: 200px;
+    padding: 10px;
+    border-color: grey;
+    border-radius: 50px;
+    width: 65%;
+}
+
+.simple
+{
+    box-align: center;
+}
