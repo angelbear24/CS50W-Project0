@@ -1,14 +1,55 @@
+*
+{
+    background-color: #1a1a1f;
+    color: lightgrey;
+}
+
 input[type=text]
 {
     box-sizing: border-box;
-    width: 200px;
     padding: 10px;
-    border-color: grey;
-    border-radius: 50px;
-    width: 65%;
+    border-color: lightgrey;
+    border-width: thin;
+    height: 22px;
+    margin: 8px auto;
+    width: 50%;
+    margin-left: 15px;
+}
+
+label
+{
+    display: inline-block;
+    width: 180px;
+    text-align: right;
+    
 }
 
 .simple
 {
-    box-align: center;
+    display: block;
+    margin: auto;
+    width: 65%;
+    border-radius: 50px;
+    color: white;
+}
+
+input[type="submit"]
+{
+    background-color: #36363f;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+}
+
+#advanced-button
+{
+    background-color: #7489c2;
+    color: black;
+    margin-left: 57%;
+}
+
+button
+{
+    margin: auto;
 }
